@@ -7,6 +7,7 @@ I decided to investigate the changing price of gold in this game, gold enters th
 
 The price spike occurred in 2018-2019
 Consider the average price for the month:
+
 <img width="499" alt="image" src="https://user-images.githubusercontent.com/47353881/215474428-4fd5e0da-185a-4065-8887-a5282d0baefb.png">
 
 We may notice that there is no data for the last 5 months in 2018
