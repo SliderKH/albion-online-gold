@@ -22,4 +22,5 @@ On April 10, 2019, the game became free-to-play, thereby creating a large flow o
 ![image](https://user-images.githubusercontent.com/47353881/215474527-0c1d0cdb-2a44-4c80-b9a0-56f6b4faa760.png)
 
 As we can see from the visualization, the trend for gold demand continues
+
 Data Source: Albion Online Data
