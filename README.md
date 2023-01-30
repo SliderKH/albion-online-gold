@@ -2,6 +2,7 @@
 In Albion Online, the gold market is player-driven, meaning that item prices are determined by supply and demand. As a result, the price of items can fluctuate depending on the number of players selling and buying them. In addition, players can participate in trade and invest in the game's economy, such as buying and selling land, buildings, or even entire cities.
 
 I decided to investigate the changing price of gold in this game, gold enters the game when players buy it with real currency, later it is sold to players for in-game currency - silver, to buy various in-game privileges 
+
 <img width="505" alt="image" src="https://user-images.githubusercontent.com/47353881/215474353-49891de5-3cb0-4019-8dcb-c4bbc36bca20.png">
 
 The price spike occurred in 2018-2019
