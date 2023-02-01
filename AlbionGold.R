@@ -1,6 +1,4 @@
 library(lubridate)
-library(dplyr)
-library(ggplot2)
 library(tidyverse)
 df <- read.csv('data/gold_data.csv')
 df$date <- as.POSIXct(df$date, format="%Y-%m-%d")
