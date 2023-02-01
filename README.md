@@ -3,6 +3,8 @@ In Albion Online, the gold market is player-driven, meaning that item prices are
 
 I decided to investigate the changing price of gold in this game, gold enters the game when players buy it with real currency, later it is sold to players for in-game currency - silver, to buy various in-game privileges 
 
+## Analysis
+
 <img width="505" alt="image" src="https://user-images.githubusercontent.com/47353881/215474353-49891de5-3cb0-4019-8dcb-c4bbc36bca20.png">
 
 The price spike occurred in 2018-2019
@@ -16,6 +18,8 @@ After searching for information on the official Albion Online game website, we l
 But what happened in April 2019?
 Albion Online's business model has always been based on two pillars: Premium status, which can be bought with real money or in-game currency, and the in-game store, which only offers clothing items.
 On April 10, 2019, the game became free-to-play, thereby creating a large flow of new players and increasing the demand for gold
+
+## Visualization
 
 ![image](https://user-images.githubusercontent.com/47353881/215474495-b2f343f6-8c9f-48e6-b9f8-0592df24bc2b.png)
 
