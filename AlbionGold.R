@@ -3,6 +3,7 @@ library(tidyverse)
 df <- read.csv('data/gold_data.csv')
 df$date <- as.POSIXct(df$date, format="%Y-%m-%d")
 head(df)
+tail(df)
 df %>%
   group_by(year=floor_date(date, "year")) %>%
   summarize(average_price=mean(price)) %>% 
