@@ -16,7 +16,8 @@ df %>%
   mutate(replace(., is.na(.), 0))
 ggplot(data=df)+
   geom_smooth(mapping=aes(x=date,y=price))+
-  xlab("Year") + ylab('Price per gold in silver')
+  xlab("Year") + ylab('Price per gold in silver')+
+  geom_smooth(mapping=aes(x=date,y=price),method=lm, color='red', size=1)
 df_bar <- df %>%
   group_by(year=floor_date(date, "year")) %>%
   summarize(average_price=mean(price)) %>% 
