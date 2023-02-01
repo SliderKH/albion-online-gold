@@ -7,11 +7,13 @@ tail(df)
 df %>%
   group_by(year=floor_date(date, "year")) %>%
   summarize(average_price=mean(price)) %>% 
-  mutate(annual_growth_rate=(average_price/lag(average_price) - 1) * 100)
+  mutate(annual_growth_rate=(average_price/lag(average_price) - 1) * 100) %>%
+  mutate(replace(., is.na(.), 0))
 df %>%
   group_by(month=floor_date(date, "month")) %>%
   summarize(average_price=mean(price)) %>% 
-  mutate(month_growth_rate=(average_price/lag(average_price) - 1) * 100)
+  mutate(month_growth_rate=(average_price/lag(average_price) - 1) * 100) %>%
+  mutate(replace(., is.na(.), 0))
 ggplot(data=df)+
   geom_smooth(mapping=aes(x=date,y=price))+
   xlab("Year") + ylab('Price per gold in silver')
